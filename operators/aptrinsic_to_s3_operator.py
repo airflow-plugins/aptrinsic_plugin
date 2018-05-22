@@ -29,10 +29,10 @@ class AptrinsicToS3Operator(BaseOperator):
     :param s3_conn_id:          The s3 connection id.
     :type s3_conn_id:           string
     :param s3_bucket:           The S3 bucket to be used to store
-                                the Google Analytics data.
+                                the Aptrinsic data.
     :type s3_bucket:            string
     :param s3_key:              The S3 key to be used to store
-                                the Hubspot data.
+                                the Aptrinsic data.
     :type s3_key:               string
     """
 
